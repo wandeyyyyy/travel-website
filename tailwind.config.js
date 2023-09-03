@@ -5,7 +5,13 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero-pattern': "url('/images/firstimg.png')",
-      })
+      }),
+      colors: {
+        custom: {
+      navcolor: '#FFA500',
+      navhover: '#0336FF',
+      }
+    }
     },
   },
   plugins: [],
