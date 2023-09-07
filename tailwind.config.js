@@ -10,6 +10,10 @@ module.exports = {
         custom: {
       navcolor: '#FFA500',
       navhover: '#0336FF',
+      facebook: '#4056AC',
+      twitter: '#60B7FE',
+      youtube: '#FE2C3C',
+      instagram: '#E14D93',
       }
     }
     },
