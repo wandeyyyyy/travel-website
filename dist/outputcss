@@ -699,6 +699,10 @@ video {
   align-items: center;
 }
 
+.items-baseline {
+  align-items: baseline;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -945,6 +949,10 @@ video {
     margin-right: 0.5rem;
   }
 
+  .md\:ml-\[3\%\] {
+    margin-left: 3%;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -993,6 +1001,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:ml-\[3\%\] {
+    margin-left: 3%;
   }
 
   .lg\:flex {
