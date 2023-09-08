@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero-pattern': "url('/images/firstimg.png')",
+        'laptop-girl': "url('/images/lapgirl.png')",
       }),
       colors: {
         custom: {
