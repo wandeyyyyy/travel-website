@@ -566,6 +566,10 @@ video {
   top: 5%;
 }
 
+.top-\[8\%\] {
+  top: 8%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -595,16 +599,16 @@ video {
   margin-top: 3rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .mt-16 {
   margin-top: 4rem;
 }
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .mt-4 {
@@ -617,10 +621,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .flex {
@@ -643,6 +643,10 @@ video {
   height: 2rem;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -659,8 +663,36 @@ video {
   width: 100%;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .max-w-\[90\%\] {
   max-width: 90%;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[70\%\] {
+  max-width: 70%;
+}
+
+.max-w-\[50\%\] {
+  max-width: 50%;
 }
 
 .items-center {
@@ -715,6 +747,10 @@ video {
 
 .bg-hero-pattern {
   background-image: url('/images/firstimg.png');
+}
+
+.bg-laptop-girl {
+  background-image: url('/images/lapgirl.png');
 }
 
 .bg-cover {
@@ -778,6 +814,10 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -897,6 +937,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .md\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -916,6 +964,11 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-4xl {
