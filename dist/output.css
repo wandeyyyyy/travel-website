@@ -570,6 +570,54 @@ video {
   top: 8%;
 }
 
+.top-\[\] {
+  top: ;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.left-\[35\%\] {
+  left: 35%;
+}
+
+.left-\[1\%\] {
+  left: 1%;
+}
+
+.left-\[10\%\] {
+  left: 10%;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.left-\[15\%\] {
+  left: 15%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1174,6 +1222,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -1242,5 +1294,34 @@ video {
 
   .lg\:text-left {
     text-align: left;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:top-\[20\%\] {
+    top: 20%;
+  }
+
+  .xl\:left-\[15\%\] {
+    left: 15%;
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:leading-loose {
+    line-height: 2;
   }
 }
