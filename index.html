@@ -10,17 +10,18 @@
 <body>
   <!-- nav -->
   <div class="hero-section bg-hero-pattern bg-no-repeat bg-cover bg-center h-screen relative">
-   <div class="md:flex md:justify-between items-center max-w-[90%] mx-auto pt-2">
+   <div class="lg:flex lg:justify-between items-center max-w-[90%] mx-auto pt-2">
+    <span class="lg:hidden cursor-pointer float-right mt-4"><i class="fa-solid fa-eye fa-lg" onclick="Menu(this)" name="eye" style="color: blue;"></i></span>
     <span>
       <img src="/images/logo.png" class=""  alt="logo">
     </span>
-  <nav class="hidden lg:flex p-4 lg:space-x-6">
+  <nav class="flex flex-col lg:flex-row md:static absolute  p-4 lg:space-x-6 w-[90%] md:w-auto text-center backdrop-blur-3xl lg:backdrop-blur-none py-20 md:py-4">
     
-    <a href="#" class="px-4 py-2 text-custom-navcolor font-semibold  hover:bg-custom-navhover hover:bg-  rounded-lg hover:text-white">Home</a>
-      <a href="#" class="px-4 py-2 text-custom-navcolor font-semibold hover:text-white hover:bg-custom-navhover rounded-lg">About us</a>
- <a href="#" class="px-4 py-2 text-custom-navcolor font-semibold hover:text-white hover:bg-custom-navhover rounded-lg">Destination</a>
- <a href="#" class="px-4 py-2 text-custom-navcolor font-semibold hover:text-white hover:bg-custom-navhover rounded-lg">Tips</a>
- <a href="#" class="px-4 py-2 text-custom-navcolor font-semibold hover:text-white hover:bg-custom-navhover rounded-lg">Contacts</a>
+    <a href="#" class="px-4 py-2 text-custom-navcolor font-bold  hover:bg-custom-navhover hover:bg-  rounded-lg hover:text-white">Home</a>
+      <a href="#" class="px-4 py-2 text-custom-navcolor font-bold hover:text-white hover:bg-custom-navhover rounded-lg">About us</a>
+ <a href="#" class="px-4 py-2 text-custom-navcolor font-bold hover:text-white hover:bg-custom-navhover rounded-lg">Destination</a>
+ <a href="#" class="px-4 py-2 text-custom-navcolor font-bold hover:text-white hover:bg-custom-navhover rounded-lg">Tips</a>
+ <a href="#" class="px-4 py-2 text-custom-navcolor font-bold hover:text-white hover:bg-custom-navhover rounded-lg">Contacts</a>
     </ul>
 </nav>
    </div>
@@ -29,7 +30,7 @@
     <p class="text-white text-center text-4xl font-extrabold mt-4 md:leading-snug xl:text-5xl">Leave your mark on all <br>
       over the world  </p>
       <div class="text-center">
-      <button class="text-white  bg-custom-navhover px-8 py-6 rounded-md hover:bg-blue-800 mt-8">Read More</button>
+      <button class="text-white  bg-custom-navhover px-8 py-6 rounded-md hover:bg-blue-800 mt-20">Read More</button>
    </div>
    <p class="text-white text-center text-sm md:text-lg mt-4">Scroll Down to Continue</p>
 
@@ -523,7 +524,7 @@
         <div class="flex flex-col lg:flex-row justify-center mt-8 lg:mt-0 lg:items-baseline">
           <input type="email" id="email" name="email" placeholder="Email Address" class=" py-4 px-6 lg:h-14 border-2 mr-4 rounded w-full lg:w-48 focus:outline-none caret-custom-navhover">
           <div class="text-center mt-4">
-          <button class="bg-custom-navhover shadow-2xl  hover:bg-blue-800 text-white rounded font-bold w-full lg:h-14  lg:w-44 py-4 px-10 ">Button</button>
+          <button class="bg-custom-navhover shadow-2xl  hover:bg-blue-800 text-white rounded font-bold w-full lg:h-14  lg:w-44 py-4 px-10 ">Subscribe</button>
           </div>
         </div>
       </div>
@@ -593,6 +594,6 @@
 
 </div>
 </div>
-
+<script src="index.js"></script>
 </body>
 </html>
