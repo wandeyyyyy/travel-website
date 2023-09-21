@@ -10,7 +10,12 @@ toggleBtn.addEventListener("click", () => {
 })
 
 }
-open()
+open();
+
+
+
+
+
 
 
 
