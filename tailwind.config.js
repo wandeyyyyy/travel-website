@@ -18,6 +18,7 @@ module.exports = {
       youtube: '#FE2C3C',
       instagram: '#E14D93',
       hr: "#c4c4c4",
+      cartoncolor: '#EDEDED',
       }
     }
     },
