@@ -1,11 +1,16 @@
 
 
-function open() {
-    const paragragh = document.getElementById("para");
-    paragragh.innerHTML = "HELLO WORLD";
-    console.log(paragragh)
+
+function open(){
+    const toggleBtn = document.querySelector(".fa-bars");
+const dropDown = document.querySelector(".dropdown");
+
+toggleBtn.addEventListener("click", () => {
+    dropDown.classList.toggle('top-16');
+})
+
 }
-open();
+open()
 
 
 
