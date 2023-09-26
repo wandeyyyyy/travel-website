@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html","about.html","destination.html","index.js","./src/**/*.{html,js}"],
+  content: ["index.html","about.html","destination.html","index.js","tips.html","./src/**/*.{html,js}"],
   theme: {
     extend: {
       backgroundImage: theme => ({
@@ -8,6 +8,7 @@ module.exports = {
         'laptop-girl': "url('/images/lapgirl.png')",
         'about-us': "url('/images/aboutBg.png')",
         'destination': "url('/images/destination.png')",
+        'tips': "url('/images/tipsimg.png')"
         
       }),
       colors: {
